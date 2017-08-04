@@ -17,7 +17,7 @@ Mongo.Collection.get = function(name, options) {
     return instance.name === name;
   });
 
-  return collection && collection.instance;
+  return collection && collection.instance || new Mongo.Collection(name);
 };
 
 Mongo.Collection.getAll = function() {
