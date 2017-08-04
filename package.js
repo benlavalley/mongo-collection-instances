@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'dburles:mongo-collection-instances',
-  summary: 'Access your Mongo instances',
-  version: '0.3.5',
-  git: 'https://github.com/dburles/mongo-collection-instances.git'
+  name: 'maxedy:mongo-collection-instances',
+  summary: 'Slightly modified version of (deprecated) dburles:mongo-collection-instances 0.3.5; create new collection if not exists',
+  version: '1.0.0',
+  git: 'https://github.com/MadMaxedy/mongo-collection-instances'
 });
 
 Package.onUse(function(api) {
