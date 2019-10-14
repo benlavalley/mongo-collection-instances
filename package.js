@@ -13,7 +13,7 @@ Package.onUse(function(api) {
     'lai:collection-extensions@0.2.1_2']);
   api.addFiles('mongo-instances.js');
 });
-
+/*
 Package.onTest(function(api) {
   api.use([
     'tinytest',
@@ -22,3 +22,4 @@ Package.onTest(function(api) {
     'dburles:mongo-collection-instances']);
   api.addFiles('mongo-instances-tests.js');
 });
+*/
