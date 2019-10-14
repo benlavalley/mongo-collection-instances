@@ -1,16 +1,16 @@
 Package.describe({
   name: 'maxedy:mongo-collection-instances',
   summary: 'Slightly modified version of (deprecated) dburles:mongo-collection-instances 0.3.5; create new collection if not exists',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/MadMaxedy/mongo-collection-instances'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0');
+  api.versionsFrom('1.8.1');
   api.use([
     'mongo',
     'underscore',
-    'lai:collection-extensions@0.2.1_1']);
+    'lai:collection-extensions@0.2.1_2']);
   api.addFiles('mongo-instances.js');
 });
 
